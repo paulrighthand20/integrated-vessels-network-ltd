@@ -27,7 +27,7 @@
     }
 
     .home{
-        background:url("pic1.jpg/ship.jpg");
+        background:url("pic1/ship.png");
         background-size:cover;
         height:100vh;
     }
