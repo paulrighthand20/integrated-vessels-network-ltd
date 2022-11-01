@@ -1,0 +1,126 @@
+.nav{
+    height:50px;
+    background:blue;
+    }
+
+    .nav div{
+        display: inline-block;
+        position: absolute;
+        left:0;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .nav ul{
+        position:absolute;
+        right:100px;
+    }
+
+    .nav ul li{
+        display:inline-block;
+    }
+
+    .nav ul li a{
+        color: white;
+        padding: 5px
+    }
+
+    .home{
+        background:url("pic1.jpg/ship.jpg");
+        background-size:cover;
+        height:100vh;
+    }
+
+
+
+
+    .text-container h1{
+        text-align:center;
+        margin-top: 100px;
+
+    }
+
+    .text-container h2{
+        text-align:center;
+
+    }
+    
+        
+
+
+    .about-content h1{
+        text-align:center;
+        margin-top: 80px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif serif;
+        color:brown;
+        font: weight 800px;;
+    
+    }
+
+
+.about-content p{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right:100px;
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.services-content h1{
+    text-align:center;
+    margin-top: 80px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800px;
+    text-decoration-line: underline  ;
+}
+
+.services-content h4{
+    text-decoration-line: underline;
+    text-align:left;
+}
+
+ p{
+    text-align:justify;
+    margin-right:50px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-container{
+    position: relative;
+    top:0px;
+    left:320px;
+    right:320px;
+    
+}
+
+
+
+
+.contact-content h1{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:brown;
+    text-decoration-line: underline;
+    margin-top:80px;
+    font-weight:800px;
+}
+
+.address-holder p{
+    text-align:center;
+    text-justify:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+i:hover{
+    background-color: aqua;
+}
+
+
+@media screen and (min-width:850px){p{
+    font-size:16px;
+}}
